@@ -566,7 +566,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: dodge-ball
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Users\rober\Dawin_2018\Proj_ete\prepare\dodge-ball\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany

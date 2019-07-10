@@ -59,6 +59,7 @@ b2a36b1a2bf9a27cacd7eb66b78ffc76 Assembly-CSharp.dll:HoloToolkit.Sharing.Sharing
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.SelectedObjectMessageSender
 8f169dce821c015a46453dde906ba3f7 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.CursorModifier
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.RegisterPointableCanvas
+7e13319f57f9cb3a27c73eecd3976a80 Assembly-CSharp.dll:.Hitbox
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -194,6 +195,7 @@ ba66ed51a66e14863f51781e69c657ef Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.Key
 296be13f4be3cfa18e9920cdf7ce02d9 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonLocalizedText
 549dafb5e0b8917306ca1eeb3e20dec6 Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.CapsLockHighlight
 62df283c31d14ff6c4ba60180378b95d Assembly-CSharp.dll:HoloToolkit.Unity.Examples.ButtonReceiverExample
+5445f43133ecbf4093237a41c976a177 Assembly-CSharp.dll:.SpawnBall
 5bb981e3ed5435eba69a415650b6af6e Assembly-CSharp.dll:HoloToolkit.Unity.SolverRadialView
 5645d472525403b5344c650d3f68dd7b Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.ManualGazeControl
 59482caaf92d302435db7de30834f291 Assembly-CSharp.dll:HoloToolkit.Examples.InteractiveElements.InteractiveWidgetTest
@@ -505,5 +507,4 @@ c1cc82b2110e41150c5ad19a512334bd Assembly-CSharp.dll:HoloToolkit.Examples.Protot
 b74d6034034deeffc1401e25ca9027a5 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButton
 9a0abb9f7109ec47e2c7bfd5d401ded8 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Examples.Grabbables.GrabbableSimple
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Examples.SpatialUnderstandingFeatureOverview.ShapeDefinition
-5445f43133ecbf4093237a41c976a177 Assembly-CSharp.dll:.SpawnBall
-7e13319f57f9cb3a27c73eecd3976a80 Assembly-CSharp.dll:.Hitbox
+7a77eda47d1caec4791f12cf66c713ac Assembly-CSharp.dll:.Decompteur
