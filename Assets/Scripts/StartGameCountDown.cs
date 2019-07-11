@@ -25,10 +25,10 @@ public class StartGameCountDown : MonoBehaviour
 
     public void StartCount()
     {
-        StartCoroutine(Decompte());
+        StartCoroutine(CountDown());
     }
 
-    private IEnumerator Decompte()
+    private IEnumerator CountDown()
     {
         int time = 3;
         while (time >= 0)
@@ -60,5 +60,6 @@ public class StartGameCountDown : MonoBehaviour
             time = time - 1;
         }
         OnCountDownEndEvents.Invoke();
+        CountDownTextObject.GetComponent<TextMesh>().text = "Start";
     }
 }

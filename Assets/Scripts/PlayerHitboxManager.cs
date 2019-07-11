@@ -5,7 +5,9 @@ public class PlayerHitboxManager : MonoBehaviour
     public AudioClip HitSound;
     private AudioSource HitAudioSource;
 
-    // Start is called before the first frame update
+    public int TimesHit { get; set; }
+    public bool HitboxActive { get; set; }
+
     private void Start()
     {
         HitAudioSource = gameObject.AddComponent<AudioSource>();
@@ -13,13 +15,20 @@ public class PlayerHitboxManager : MonoBehaviour
         HitAudioSource.loop = false;
         HitAudioSource.volume = 1.0f;
         HitAudioSource.Stop();
+
+        TimesHit = 0;
+        HitboxActive = false;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (!HitboxActive) { return; }
+
         GameObject otherObj = collision.gameObject;
-        Debug.Log("Collided with: " + otherObj + ", -1pv");
+
         HitAudioSource.clip = HitSound;
         HitAudioSource.Play();
+
+        TimesHit++;
     }
 }

@@ -1,24 +1,38 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BallManager : MonoBehaviour
 {
 
     public GameObject BallPrefab;
     public GameObject TimerText;
-    public float ThrowingForce = 400f;
+    public float ThrowingForce = 800f;
     public float SpawnInterval = 2f;
     public float BallLifetime = 5f;
     public int GameDuration = 60;
+
+    public UnityEvent OnSpawningEndEvents;
 
     public void StartSpawning()
     {
         StartCoroutine(Spawning());
     }
 
+    public void StopSpawning()
+    {
+        StopCoroutine(Spawning());
+        StopAllCoroutines();
+        OnSpawningEndEvents.Invoke();
+    }
+
     private IEnumerator Spawning()
     {
         int time = 0;
+        PlayerHitboxManager player = GameObject.Find("MixedRealityCamera").GetComponent<PlayerHitboxManager>();
+
+        player.TimesHit = 0;
+        player.HitboxActive = true;
 
         SpawnerManager spawners = gameObject.GetComponent<SpawnerManager>();
         TextMesh timerString = TimerText.GetComponent<TextMesh>();
@@ -38,5 +52,7 @@ public class BallManager : MonoBehaviour
             Destroy(newBall, BallLifetime);
             time += (int)SpawnInterval;
         }
+        OnSpawningEndEvents.Invoke();
+        player.HitboxActive = false;
     }
 }

@@ -197,7 +197,7 @@ ba66ed51a66e14863f51781e69c657ef Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.Key
 296be13f4be3cfa18e9920cdf7ce02d9 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonLocalizedText
 549dafb5e0b8917306ca1eeb3e20dec6 Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.CapsLockHighlight
 62df283c31d14ff6c4ba60180378b95d Assembly-CSharp.dll:HoloToolkit.Unity.Examples.ButtonReceiverExample
-ebb23225d7b7484c7051f892364865ed Assembly-CSharp.dll:.BallManager
+32cfb1c987bb10082ef79a98c4791afc Assembly-CSharp.dll:.BallManager
 5bb981e3ed5435eba69a415650b6af6e Assembly-CSharp.dll:HoloToolkit.Unity.SolverRadialView
 5645d472525403b5344c650d3f68dd7b Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.ManualGazeControl
 59482caaf92d302435db7de30834f291 Assembly-CSharp.dll:HoloToolkit.Examples.InteractiveElements.InteractiveWidgetTest
@@ -406,6 +406,7 @@ f7cf9e253f09e4ec8daa4fc98b6daae3 Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.Key
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Examples.Prototyping.SceneSwitcher
 952bc8ce2ca727c70d8e698a24875af8 Assembly-CSharp.dll:HoloToolkit.Examples.Prototyping.CycleStatusDisplay
 ce610f1f07fce1af31f7a0c83c795c10 Assembly-CSharp.dll:HoloToolkit.Examples.InteractiveElements.InteractiveWidgetStateTest
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UIManager
 24ccda7d9768f21e49a1e5334c1761a6 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.OnFocusEvent
 af4ae9a3d9778026e545c5b641928c70 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.CameraMotionInfo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.TextToSpeechTest
@@ -511,4 +512,5 @@ c1cc82b2110e41150c5ad19a512334bd Assembly-CSharp.dll:HoloToolkit.Examples.Protot
 b74d6034034deeffc1401e25ca9027a5 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButton
 9a0abb9f7109ec47e2c7bfd5d401ded8 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Examples.Grabbables.GrabbableSimple
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Examples.SpatialUnderstandingFeatureOverview.ShapeDefinition
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UIManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitGame
+f53fe964edd8cd8612980af87a1d2759 Assembly-CSharp.dll:.EndGameSound

@@ -15,7 +15,6 @@ public class SpawnerManager : MonoBehaviour
 
     public void PlaceSpawner()
     {
-        Interactive addSpawnerButton = GameObject.Find("AddSpawnerButton").GetComponent<Interactive>();
         Interactive startGameButton = GameObject.Find("StartGameButton").GetComponent<Interactive>();
 
         if (Spawners.Count < MaxSpawnerCount)
@@ -34,5 +33,13 @@ public class SpawnerManager : MonoBehaviour
     public GameObject GetRandomSpawner()
     {
         return Spawners[Rng.Next(Spawners.Count)];
+    }
+
+    public void RemoveSpawners()
+    {
+        GameObject.Find("StartGameButton").GetComponent<Interactive>().IsEnabled = false;
+
+        Spawners.ForEach(spwn => Destroy(spwn));
+        Spawners.Clear();
     }
 }

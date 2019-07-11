@@ -934,8 +934,10 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextMeshColorThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
     <Compile Include="Assets\Scripts\BallManager.cs" />
+    <Compile Include="Assets\Scripts\EndGameSound.cs" />
     <Compile Include="Assets\Scripts\PlayerHitboxManager.cs" />
     <Compile Include="Assets\Scripts\Pushable.cs" />
+    <Compile Include="Assets\Scripts\QuitGame.cs" />
     <Compile Include="Assets\Scripts\SpawnerManager.cs" />
     <Compile Include="Assets\Scripts\StartGameCountDown.cs" />
     <Compile Include="Assets\Scripts\TapToPlaceFixRotation.cs" />
