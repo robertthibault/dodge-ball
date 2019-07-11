@@ -2083,9 +2083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a98cf320fe9340a55eecfe4567ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonState: 4
-  ButtonPressFilter: 1
-  RequireGaze: 1
+  buttonState: 4
+  buttonPressFilter: 1
+  requireGaze: 1
   MainCollider: {fileID: 0}
   MainRenderer: {fileID: 23577552941652698}
 --- !u!114 &114191715546333546
@@ -2201,9 +2201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a98cf320fe9340a55eecfe4567ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonState: 4
-  ButtonPressFilter: 1
-  RequireGaze: 1
+  buttonState: 4
+  buttonPressFilter: 1
+  requireGaze: 1
   MainCollider: {fileID: 0}
   MainRenderer: {fileID: 23778599206630160}
 --- !u!114 &114372825766621270
@@ -2348,9 +2348,13 @@ MonoBehaviour:
   LayoutType: 0
   IgnoreInactiveTransforms: 1
   Radius: 2
+  radialRange: 180
   Rows: 1
   CellWidth: 0.12
   CellHeight: 0.5
+  horizontalMargin: 0.2
+  verticalMargin: 0.2
+  depthMargin: 0.2
   SphereMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   CylinderMesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &114556106218149150
@@ -2364,9 +2368,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a98cf320fe9340a55eecfe4567ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonState: 4
-  ButtonPressFilter: 1
-  RequireGaze: 1
+  buttonState: 4
+  buttonPressFilter: 1
+  requireGaze: 1
   MainCollider: {fileID: 0}
   MainRenderer: {fileID: 23955980332074116}
 --- !u!114 &114570543036236394
@@ -2437,9 +2441,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a98cf320fe9340a55eecfe4567ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonState: 4
-  ButtonPressFilter: 1
-  RequireGaze: 1
+  buttonState: 4
+  buttonPressFilter: 1
+  requireGaze: 1
   MainCollider: {fileID: 0}
   MainRenderer: {fileID: 23840694832117638}
 --- !u!114 &114672821567789968
@@ -2651,7 +2655,10 @@ MonoBehaviour:
   element: 6
   handedness: 1
   trackedObjectToReference: 0
+  additionalOffset: {x: 0, y: 0, z: 0}
+  additionalRotation: {x: 0, y: 0, z: 0}
   transformTarget: {fileID: 0}
+  updateSolvers: 1
 --- !u!114 &114858092440474484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2740,8 +2747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77a98cf320fe9340a55eecfe4567ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonState: 4
-  ButtonPressFilter: 1
-  RequireGaze: 1
+  buttonState: 4
+  buttonPressFilter: 1
+  requireGaze: 1
   MainCollider: {fileID: 0}
   MainRenderer: {fileID: 23003651511590544}

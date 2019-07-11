@@ -222,13 +222,13 @@
       <HintPath>Assets/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/rober/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/gaeta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/rober/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/gaeta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/rober/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/gaeta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -933,9 +933,13 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\ScaleThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextMeshColorThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
-    <Compile Include="Assets\Scripts\Decompteur.cs" />
-    <Compile Include="Assets\Scripts\Hitbox.cs" />
-    <Compile Include="Assets\Scripts\SpawnBall.cs" />
+    <Compile Include="Assets\Scripts\BallManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerHitboxManager.cs" />
+    <Compile Include="Assets\Scripts\Pushable.cs" />
+    <Compile Include="Assets\Scripts\SpawnerManager.cs" />
+    <Compile Include="Assets\Scripts\StartGameCountDown.cs" />
+    <Compile Include="Assets\Scripts\TapToPlaceFixRotation.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />

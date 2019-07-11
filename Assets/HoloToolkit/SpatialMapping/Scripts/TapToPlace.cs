@@ -41,7 +41,7 @@ namespace HoloToolkit.Unity.SpatialMapping
         [Tooltip("Should the center of the Collider be used instead of the gameObjects world transform.")]
         public bool UseColliderCenter;
 
-        private Interpolator interpolator;
+        protected Interpolator interpolator;
 
         /// <summary>
         /// The default ignore raycast layer built into unity.
@@ -49,7 +49,7 @@ namespace HoloToolkit.Unity.SpatialMapping
         private const int IgnoreRaycastLayer = 2;
 
         private Dictionary<GameObject, int> layerCache = new Dictionary<GameObject, int>();
-        private Vector3 PlacementPosOffset;
+        protected Vector3 PlacementPosOffset;
 
         protected virtual void Start()
         {
@@ -201,7 +201,7 @@ namespace HoloToolkit.Unity.SpatialMapping
         /// If we're using the spatial mapping, check to see if we got a hit, else use the gaze position.
         /// </summary>
         /// <returns>Placement position in front of the user</returns>
-        private static Vector3 GetPlacementPosition(Vector3 headPosition, Vector3 gazeDirection, float defaultGazeDistance)
+        protected static Vector3 GetPlacementPosition(Vector3 headPosition, Vector3 gazeDirection, float defaultGazeDistance)
         {
             RaycastHit hitInfo;
             if (SpatialMappingRaycast(headPosition, gazeDirection, out hitInfo))
